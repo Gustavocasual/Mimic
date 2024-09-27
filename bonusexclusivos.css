@@ -1,0 +1,415 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+
+
+body{
+    overflow-x: hidden;
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+header{
+    position: relative;
+    width: 100vw;
+    height: 90px;
+    background-color: #131313;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    width: 220px;
+    height: 90px;
+    background-image: url(./img/Texto\ do\ seu\ parágrafo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #fff; */
+    top: -30px;
+}
+
+.voltar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #fff; */
+    color: #fff;
+    top: 10px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    position: relative;
+    width: 100%;
+    height: 2000px;
+}
+
+.teladeanuncio{
+    position: absolute;
+    width: 100vw;
+    height: 600px;
+    left: -9999px;
+    background-color: #58ba01;
+    top: 30px;
+    /* background-image: url(./img/5152344611002363551.jpg); */
+    
+}
+.teladeanuncioon{
+    position: absolute;
+    width: 100vw;
+    height: 600px;
+    top: 30px;
+    left: 0px;
+    background-image: url(./img/imgemdotelegram.jpg);
+    background-size: cover;
+    animation: teladeanuncioon 3s;
+
+}
+
+@keyframes teladeanuncioon{
+    from{
+        left: -9999px;
+    }
+    to{
+
+        left: 0px;
+    }
+}
+.teladeanuncioff{
+    position: absolute;
+    width: 100vw;
+    height: 600px;
+    background-color: #0011ff;
+    top: 30px;
+    left: -9999px;
+
+    animation: teladeanuncioff 3s;
+
+}
+
+@keyframes teladeanuncioff{
+    from{
+        left: 0px;
+    }
+    to{
+
+        left: -9999px;
+    }
+}
+
+
+.teladevalorfundo{
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    background: linear-gradient(to bottom left,red,black);
+    border-radius: 20px;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teladevalor{
+    /* position: absolute; */
+    width: 99%;
+    height: 489px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opxc{
+    position: relative;
+    width: 31%;
+    height: 450px;
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 10px gray;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #131313;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 14px;
+}
+
+.opxc:hover{
+    height: 480px;
+    transition: height 3s ease;
+}
+
+.circulog{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 100px;
+    background-image: url(./img/coroa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px gray;
+    
+    top: -50px;
+}
+.star{
+   
+    background-image: url(./img/star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.for{
+    
+    background-image: url(./img/planning.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.txtlg{
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    /* border: 2px solid gold; */
+    top: 45px;
+    color: #131313;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width:320px) and (max-width:540px){
+    header{
+        position: relative;
+        width: 100vw;
+        height: 90px;
+        background-color: #131313;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo{
+        position: absolute;
+        width: 220px;
+        height: 90px;
+        background-image: url(./img/Texto\ do\ seu\ parágrafo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-color: #fff; */
+        top: -30px;
+    }
+    
+
+    
+.voltar{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: #fff; */
+    color: #fff;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    
+    main{
+        position: relative;
+        width: 100%;
+        height: 2000px;
+    }
+    
+    .teladeanuncio{
+        position: absolute;
+        width: 100vw;
+        height: 300px;
+        left: -9999px;
+        background-color: #58ba01;
+        top: 30px;
+        /* background-image: url(./img/5152344611002363551.jpg); */
+        
+    }
+    .teladeanuncioon{
+        position: absolute;
+        width: 100vw;
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: 30px;
+        left: 0px;
+        background-image: url(./img/imgemdotelegram.jpg);
+        animation: teladeanuncioon 3s;
+    
+    }
+    
+    @keyframes teladeanuncioon{
+        from{
+            left: -9999px;
+        }
+        to{
+    
+            left: 0px;
+        }
+    }
+    .teladeanuncioff{
+        position: absolute;
+        width: 100vw;
+        height: 300px;
+   
+        top: 30px;
+        left: -9999px;
+        /* background-image: url(./img/5152344611002363551.jpg); */
+        animation: teladeanuncioff 3s;
+    
+    }
+    
+    @keyframes teladeanuncioff{
+        from{
+            left: 0px;
+        }
+        to{
+    
+            left: -9999px;
+        }
+    }
+    
+    
+    .teladevalorfundo{
+        position: absolute;
+        width: 99%;
+        height: 1600px;
+        background: linear-gradient(to bottom left,red,black);
+        border-radius: 20px;
+        top: 1140px;
+        
+        transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .teladevalor{
+        /* position: absolute; */
+        width: 99%;
+        height: 1589px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .opxc{
+        position: relative;
+        width: 89%;
+        height: 450px;
+        /* border: 2px solid red; */
+        box-shadow: 0px 0px 10px gray;
+        margin-left: 14px;
+        margin-right: 14px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: #131313;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding: 14px;
+    }
+    
+    .opxc:hover{
+        height: 480px;
+        transition: height 3s ease;
+    }
+    
+    .circulog{
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        padding: 10px;
+        border-radius: 100px;
+        background-image: url(./img/coroa.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 10px gray;
+        
+        top: -50px;
+    }
+    .star{
+       
+        background-image: url(./img/star.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+        
+    }
+    .for{
+        
+        background-image: url(./img/planning.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .txtlg{
+        position: absolute;
+        width: 40%;
+        height: 40px;
+        /* border: 2px solid gold; */
+        top: 45px;
+        color: #131313;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
